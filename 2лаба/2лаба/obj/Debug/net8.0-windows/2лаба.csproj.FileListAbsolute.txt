@@ -16,3 +16,5 @@ E:\OKP\2лаба\tic_tac_toe\2лаба\2лаба\obj\Debug\net8.0-windows\refint
 E:\OKP\2лаба\tic_tac_toe\2лаба\2лаба\obj\Debug\net8.0-windows\2лаба.pdb
 E:\OKP\2лаба\tic_tac_toe\2лаба\2лаба\obj\Debug\net8.0-windows\2лаба.genruntimeconfig.cache
 E:\OKP\2лаба\tic_tac_toe\2лаба\2лаба\obj\Debug\net8.0-windows\ref\2лаба.dll
+E:\OKP\2лаба\tic_tac_toe\2лаба\2лаба\obj\Debug\net8.0-windows\_2лаба.Form2.resources
+E:\OKP\2лаба\tic_tac_toe\2лаба\2лаба\obj\Debug\net8.0-windows\_2лаба.Main.resources

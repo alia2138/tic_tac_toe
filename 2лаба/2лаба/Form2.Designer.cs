@@ -265,7 +265,7 @@
             // rosette11
             // 
             rosette11.BackgroundImage = Properties.Resources.Знімок_екрана_2025_11_12_085325;
-            rosette11.Location = new Point(80, 115);
+            rosette11.Location = new Point(71, 112);
             rosette11.Name = "rosette11";
             rosette11.Size = new Size(125, 127);
             rosette11.TabIndex = 39;
@@ -354,7 +354,7 @@
             // lamp11
             // 
             lamp11.BackgroundImage = (Image)resources.GetObject("lamp11.BackgroundImage");
-            lamp11.Location = new Point(106, 115);
+            lamp11.Location = new Point(80, 115);
             lamp11.Name = "lamp11";
             lamp11.Size = new Size(90, 104);
             lamp11.SizeMode = PictureBoxSizeMode.StretchImage;
