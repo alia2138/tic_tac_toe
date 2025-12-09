@@ -8,25 +8,34 @@ namespace _2лаба
 {
     public partial class Form2 : Form
     {
-        char WHO = 'O';    // O – людина, X – бот
         short movement = 0;
         Random rnd = new Random();
 
         public Form2()
         {
             InitializeComponent();
+
+            // Автоматично підключаємо Click для ВСІХ кнопок b1_1 ... b3_3
+            foreach (Button bt in Controls.OfType<Button>())
+                if (bt.Name.StartsWith("b"))
+                    bt.Click += buuton_click;
         }
 
-        // ==================== НАТИСКАННЯ КНОПКИ ГРАВЦЕМ ====================
         private void buuton_click(object sender, EventArgs e)
         {
-            Button bt = sender as Button;
-            if (bt.Text != "") return;
+            // ❗ Захист від NullReference
+            if (sender is not Button bt)
+                return; // Якщо клікнули НЕ по кнопці — виходимо
 
-            PlayerMove(bt);  // Хід людини
+            if (bt.Text != "")
+                return; // Кнопка вже натиснута
+
+            // --- ХІД ЛЮДИНИ ---
+            PlayerMove(bt);
             if (CheckWin()) return;
 
-            AIMove();        // Хід бота
+            // --- ХІД AI ---
+            AIMove();
             CheckWin();
         }
 
@@ -43,7 +52,6 @@ namespace _2лаба
         void AIMove()
         {
             List<Button> free = GetFreeButtons();
-
             if (free.Count == 0) return;
 
             Button move = free[rnd.Next(free.Count)];
@@ -64,7 +72,7 @@ namespace _2лаба
                 .ToList();
         }
 
-        // ==================== ПЕРЕВІРКА НА ПЕРЕМОГУ ====================
+        // ==================== ПЕРЕВІРКА ПЕРЕМОГИ ====================
         bool CheckWin()
         {
             string[,] field = {
@@ -73,7 +81,6 @@ namespace _2лаба
                 { b3_1.Text, b3_2.Text, b3_3.Text }
             };
 
-            // Усі виграшні комбінації
             int[][] lines = new int[][]
             {
                 new []{0,0, 0,1, 0,2},
@@ -111,7 +118,7 @@ namespace _2лаба
             return false;
         }
 
-        // ==================== ВІДКЛЮЧИТИ ВСІ КНОПКИ ====================
+        // ==================== ВІДКЛЮЧИТИ ВСІ ====================
         void DisableAll()
         {
             foreach (var b in Controls.OfType<Button>())
@@ -130,7 +137,7 @@ namespace _2лаба
                 {
                     bt.Enabled = true;
                     bt.Text = "";
-                    bt.BackColor = Color.Black;  // ЧОРНІ як ти хотіла
+                    bt.BackColor = Color.Black;
                 }
             }
         }
@@ -138,6 +145,51 @@ namespace _2лаба
         private void вийтиToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Close();
+        }
+
+        private void b1_1_Click(object sender, EventArgs e)
+        {
+            buuton_click(sender, e);
+        }
+
+        private void b1_2_Click(object sender, EventArgs e)
+        {
+            buuton_click(sender, e);
+        }
+
+        private void b1_3_Click(object sender, EventArgs e)
+        {
+            buuton_click(sender, e);
+        }
+
+        private void b2_1_Click(object sender, EventArgs e)
+        {
+            buuton_click(sender, e);
+        }
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+            buuton_click(sender, e);
+        }
+
+        private void b2_3_Click(object sender, EventArgs e)
+        {
+            buuton_click(sender, e);
+        }
+
+        private void b3_1_Click(object sender, EventArgs e)
+        {
+            buuton_click(sender, e);
+        }
+
+        private void b3_2_Click(object sender, EventArgs e)
+        {
+            buuton_click(sender, e);
+        }
+
+        private void b3_3_Click(object sender, EventArgs e)
+        {
+            buuton_click(sender, e);
         }
     }
 }

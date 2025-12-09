@@ -85,6 +85,7 @@
             b1_3.Size = new Size(166, 172);
             b1_3.TabIndex = 84;
             b1_3.UseVisualStyleBackColor = false;
+            b1_3.Click += b1_3_Click;
             // 
             // b1_2
             // 
@@ -98,6 +99,7 @@
             b1_2.Size = new Size(166, 172);
             b1_2.TabIndex = 83;
             b1_2.UseVisualStyleBackColor = false;
+            b1_2.Click += b1_2_Click;
             // 
             // b3_3
             // 
@@ -111,6 +113,7 @@
             b3_3.Size = new Size(166, 172);
             b3_3.TabIndex = 82;
             b3_3.UseVisualStyleBackColor = false;
+            b3_3.Click += b3_3_Click;
             // 
             // b3_2
             // 
@@ -124,6 +127,7 @@
             b3_2.Size = new Size(166, 172);
             b3_2.TabIndex = 81;
             b3_2.UseVisualStyleBackColor = false;
+            b3_2.Click += b3_2_Click;
             // 
             // b3_1
             // 
@@ -137,6 +141,7 @@
             b3_1.Size = new Size(166, 172);
             b3_1.TabIndex = 80;
             b3_1.UseVisualStyleBackColor = false;
+            b3_1.Click += b3_1_Click;
             // 
             // b2_3
             // 
@@ -150,6 +155,7 @@
             b2_3.Size = new Size(166, 172);
             b2_3.TabIndex = 79;
             b2_3.UseVisualStyleBackColor = false;
+            b2_3.Click += b2_3_Click;
             // 
             // b2_1
             // 
@@ -163,6 +169,7 @@
             b2_1.Size = new Size(166, 172);
             b2_1.TabIndex = 78;
             b2_1.UseVisualStyleBackColor = false;
+            b2_1.Click += b2_1_Click;
             // 
             // b1_1
             // 
@@ -176,6 +183,7 @@
             b1_1.Size = new Size(166, 172);
             b1_1.TabIndex = 77;
             b1_1.UseVisualStyleBackColor = false;
+            b1_1.Click += b1_1_Click;
             // 
             // b2_2
             // 
@@ -209,6 +217,7 @@
             Margin = new Padding(4);
             Name = "Form2";
             Text = "Form2";
+            Load += Form2_Load;
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();
             ResumeLayout(false);
