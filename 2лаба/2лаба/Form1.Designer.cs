@@ -296,7 +296,7 @@
             button1.BackgroundImageLayout = ImageLayout.None;
             button1.FlatStyle = FlatStyle.Popup;
             button1.ForeColor = SystemColors.ActiveCaptionText;
-            button1.Location = new Point(158, 127);
+            button1.Location = new Point(150, 127);
             button1.Name = "button1";
             button1.Size = new Size(133, 138);
             button1.TabIndex = 20;
