@@ -62,6 +62,7 @@
             вийтиToolStripMenuItem.Name = "вийтиToolStripMenuItem";
             вийтиToolStripMenuItem.Size = new Size(88, 34);
             вийтиToolStripMenuItem.Text = "Exit";
+            вийтиToolStripMenuItem.Click += вийтиToolStripMenuItem_Click;
             // 
             // новаГраToolStripMenuItem
             // 
@@ -70,6 +71,7 @@
             новаГраToolStripMenuItem.Name = "новаГраToolStripMenuItem";
             новаГраToolStripMenuItem.Size = new Size(152, 34);
             новаГраToolStripMenuItem.Text = "New game";
+            новаГраToolStripMenuItem.Click += новаГраToolStripMenuItem_Click;
             // 
             // b1_3
             // 
