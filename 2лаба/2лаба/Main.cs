@@ -18,13 +18,19 @@ namespace _2лаба
         }
 
         private void button2_Click(object sender, EventArgs e)
-        {
+        { 
+            Form1 f = new Form1();
+            f.Show();
 
+            this.Hide();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
+            Form2 f = new Form2();
+            f.Show();
 
+            this.Hide();
         }
     }
 }
