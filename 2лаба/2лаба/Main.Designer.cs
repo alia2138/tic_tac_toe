@@ -56,9 +56,10 @@
             label1.BackColor = Color.Transparent;
             label1.Font = new Font("Showcard Gothic", 24F, FontStyle.Regular, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.Yellow;
-            label1.Location = new Point(80, 98);
+            label1.Location = new Point(100, 122);
+            label1.Margin = new Padding(4, 0, 4, 0);
             label1.Name = "label1";
-            label1.Size = new Size(656, 50);
+            label1.Size = new Size(792, 60);
             label1.TabIndex = 0;
             label1.Text = "Lampochki - rozetochki game";
             // 
@@ -66,9 +67,10 @@
             // 
             button1.BackColor = Color.Yellow;
             button1.Font = new Font("Showcard Gothic", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button1.Location = new Point(110, 225);
+            button1.Location = new Point(138, 281);
+            button1.Margin = new Padding(4, 4, 4, 4);
             button1.Name = "button1";
-            button1.Size = new Size(216, 165);
+            button1.Size = new Size(270, 206);
             button1.TabIndex = 1;
             button1.Text = "1 person";
             button1.UseVisualStyleBackColor = false;
@@ -77,9 +79,10 @@
             // 
             button2.BackColor = Color.Yellow;
             button2.Font = new Font("Showcard Gothic", 18F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            button2.Location = new Point(473, 216);
+            button2.Location = new Point(591, 270);
+            button2.Margin = new Padding(4, 4, 4, 4);
             button2.Name = "button2";
-            button2.Size = new Size(216, 165);
+            button2.Size = new Size(270, 206);
             button2.TabIndex = 2;
             button2.Text = "2 persons";
             button2.UseVisualStyleBackColor = false;
@@ -87,9 +90,10 @@
             // lamp11
             // 
             lamp11.BackgroundImage = (Image)resources.GetObject("lamp11.BackgroundImage");
-            lamp11.Location = new Point(695, 378);
+            lamp11.Location = new Point(869, 472);
+            lamp11.Margin = new Padding(4, 4, 4, 4);
             lamp11.Name = "lamp11";
-            lamp11.Size = new Size(90, 104);
+            lamp11.Size = new Size(87, 107);
             lamp11.SizeMode = PictureBoxSizeMode.StretchImage;
             lamp11.TabIndex = 31;
             lamp11.TabStop = false;
@@ -97,9 +101,10 @@
             // pictureBox1
             // 
             pictureBox1.BackgroundImage = (Image)resources.GetObject("pictureBox1.BackgroundImage");
-            pictureBox1.Location = new Point(-22, -24);
+            pictureBox1.Location = new Point(5, 2);
+            pictureBox1.Margin = new Padding(4, 4, 4, 4);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(90, 104);
+            pictureBox1.Size = new Size(93, 105);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 32;
             pictureBox1.TabStop = false;
@@ -107,9 +112,10 @@
             // pictureBox2
             // 
             pictureBox2.BackgroundImage = (Image)resources.GetObject("pictureBox2.BackgroundImage");
-            pictureBox2.Location = new Point(14, 319);
+            pictureBox2.Location = new Point(18, 399);
+            pictureBox2.Margin = new Padding(4, 4, 4, 4);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(90, 104);
+            pictureBox2.Size = new Size(80, 105);
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox2.TabIndex = 33;
             pictureBox2.TabStop = false;
@@ -117,9 +123,10 @@
             // pictureBox3
             // 
             pictureBox3.BackgroundImage = (Image)resources.GetObject("pictureBox3.BackgroundImage");
-            pictureBox3.Location = new Point(352, 166);
+            pictureBox3.Location = new Point(440, 208);
+            pictureBox3.Margin = new Padding(4, 4, 4, 4);
             pictureBox3.Name = "pictureBox3";
-            pictureBox3.Size = new Size(90, 104);
+            pictureBox3.Size = new Size(95, 106);
             pictureBox3.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox3.TabIndex = 34;
             pictureBox3.TabStop = false;
@@ -127,9 +134,10 @@
             // pictureBox4
             // 
             pictureBox4.BackgroundImage = (Image)resources.GetObject("pictureBox4.BackgroundImage");
-            pictureBox4.Location = new Point(708, 2);
+            pictureBox4.Location = new Point(900, 77);
+            pictureBox4.Margin = new Padding(4, 4, 4, 4);
             pictureBox4.Name = "pictureBox4";
-            pictureBox4.Size = new Size(90, 104);
+            pictureBox4.Size = new Size(82, 105);
             pictureBox4.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox4.TabIndex = 35;
             pictureBox4.TabStop = false;
@@ -137,36 +145,39 @@
             // rosette11
             // 
             rosette11.BackgroundImage = Properties.Resources.Знімок_екрана_2025_11_12_085325;
-            rosette11.Location = new Point(158, -24);
+            rosette11.Location = new Point(391, 2);
+            rosette11.Margin = new Padding(4, 4, 4, 4);
             rosette11.Name = "rosette11";
-            rosette11.Size = new Size(129, 130);
+            rosette11.Size = new Size(128, 130);
             rosette11.TabIndex = 40;
             rosette11.TabStop = false;
             // 
             // pictureBox5
             // 
             pictureBox5.BackgroundImage = Properties.Resources.Знімок_екрана_2025_11_12_085325;
-            pictureBox5.Location = new Point(338, 162);
+            pictureBox5.Location = new Point(197, 495);
+            pictureBox5.Margin = new Padding(4, 4, 4, 4);
             pictureBox5.Name = "pictureBox5";
-            pictureBox5.Size = new Size(125, 127);
+            pictureBox5.Size = new Size(130, 136);
             pictureBox5.TabIndex = 41;
             pictureBox5.TabStop = false;
             // 
             // pictureBox6
             // 
             pictureBox6.BackgroundImage = Properties.Resources.Знімок_екрана_2025_11_12_085325;
-            pictureBox6.Location = new Point(429, 414);
+            pictureBox6.Location = new Point(614, 484);
+            pictureBox6.Margin = new Padding(4, 4, 4, 4);
             pictureBox6.Name = "pictureBox6";
-            pictureBox6.Size = new Size(125, 127);
+            pictureBox6.Size = new Size(130, 158);
             pictureBox6.TabIndex = 42;
             pictureBox6.TabStop = false;
             // 
             // Main
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.DeepSkyBlue;
-            ClientSize = new Size(827, 494);
+            ClientSize = new Size(1034, 618);
             Controls.Add(pictureBox6);
             Controls.Add(pictureBox5);
             Controls.Add(rosette11);
@@ -178,6 +189,7 @@
             Controls.Add(button2);
             Controls.Add(button1);
             Controls.Add(label1);
+            Margin = new Padding(4, 4, 4, 4);
             Name = "Main";
             Text = "Main";
             ((System.ComponentModel.ISupportInitialize)lamp11).EndInit();
